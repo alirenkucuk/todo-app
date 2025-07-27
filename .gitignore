@@ -1,0 +1,43 @@
+#───────────────────────────────────────────────────────────────────
+#  Project        : To-Do App
+#  FileName       : .gitignore
+#  Goal           : İzlenmemesi gereken dosya ve klasörleri tanımlamak
+#  Author         : Ali Eren Küçük
+#  Project Owners : Ali Eren Küçük & Mehmet Avni Arslan
+#  Date           : 24.07.2025
+#  V              : 0.0.1
+#───────────────────────────────────────────────────────────────────
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ortam değişkenleri
+.env
+.env.local
+.env.*.local
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Build / output
+/dist
+/build
+
+# Logs
+logs/
+*.log
+
+# Frontend React build
+frontend/build/
+
+# Backend nodemon
+*.pid
+
+# IDE’ler
+.idea/

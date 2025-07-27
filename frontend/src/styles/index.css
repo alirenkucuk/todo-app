@@ -1,0 +1,27 @@
+/*───────────────────────────────────────────────────────────────────
+/*  Project        : To-Do App
+/*  FileName       : index.css
+/*  Goal           : Tailwind CSS and additional styles for the To-Do App
+/*  Author         : Ali Eren Küçük
+/*  Project Owners : Ali Eren Küçük & Mehmet Avni Arslan
+/*  Date           : 22.07.2025
+/*  V              : 0.0.1
+───────────────────────────────────────────────────────────────────*/
+
+/*
+  The following Tailwind directives require processing by Tailwind CSS.
+  Make sure your build tool (like PostCSS with Tailwind plugin) is set up correctly.
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global background ve font ayarları */
+body {
+  @apply bg-gray-100 font-sans text-gray-900;
+}
+
+/* Linklerin hover efektleri */
+a {
+  @apply text-blue-500 hover:underline;
+}
